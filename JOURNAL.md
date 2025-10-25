@@ -26,3 +26,16 @@ The Pico Keys uses an LED to display the status of the key, so I will need to ad
 Also, sorry if this has been a bit of a ramble, I wanted to get the ideas off my mind for future reference.
   
 
+## 10/25/2025 - More research and schematic  
+
+Actually, it turns out I do need to add a BOOTSEL button for the user confirmation, I will try to do so. I have been thinking if I should use the RP2354 with integrated 2 MB flash, or use a RP2350 with 4 MB of QSPI flash.
+
+I have mostly been reading the [RP2350 hardware design guide](https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf), it is a great read :).
+
+Furthermore, I have decided to use the RP2354 with the integrated flash as it removes one component off the board, making the board itself smaller.
+
+Also, the USB-C connector will be a receptacle and not a port (the one that sticks out), as the PCBA would get really expensive. I guess I will have a small USB-C cable plugged into the device at all times.
+
+Here is the schematic. It was mostly made out of the hardware guide by RPi because the RP2040 has changes that the dev board guide does not account for.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d3f5e668c3d1f68173d2f2020ca4d21c8f702b06/image.png)  
+
