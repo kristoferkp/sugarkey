@@ -26,7 +26,7 @@ The Pico Keys uses an LED to display the status of the key, so I will need to ad
 Also, sorry if this has been a bit of a ramble, I wanted to get the ideas off my mind for future reference.
   
 
-## 10/25/2025 - More research and schematic  
+## 10/25/2025 3:41 AM - More research and schematic  
 
 Actually, it turns out I do need to add a BOOTSEL button for the user confirmation, I will try to do so. I have been thinking if I should use the RP2354 with integrated 2 MB flash, or use a RP2350 with 4 MB of QSPI flash.
 
@@ -38,4 +38,25 @@ Also, the USB-C connector will be a receptacle and not a port (the one that stic
 
 Here is the schematic. It was mostly made out of the hardware guide by RPi because the RP2040 has changes that the dev board guide does not account for.
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d3f5e668c3d1f68173d2f2020ca4d21c8f702b06/image.png)  
+
+## 10/25/2025 3:50 AM - PCB footprint and routing  
+
+Holy moly, this is via city. The QFN pins make it hard to route the traces and I had to use a lot of vias. That isn't inherently bad, but should be avoided. 
+
+One of the components will be on the underside of the board but as I do not want to pay an arm and a leg for the PCBA, I have decided that I will try to hand solder it.
+
+One of the many problems with my work here is that one capacitor (C2) cannot be moved to the front as that breaks GND planes from being connected. Which is odd, but I have been staying up too late and am too tired for my brain to function.
+
+I will try and solve the issue another day. I did try and see what PCBA Standard would cost and it was almost like 90 euros for 2 boards. That is kind of insane, but with bulk discounts it would be a lot cheaper I would imagine.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--28c2966ea3004686e06a7d0c26133aa5f2c5be97/image.png)
+
+As you guys can see, not my finest work, but it should maybe probably hopefully work.
+I managed to get the caps as close as I could and I think it looks nifty.
+
+I need to add some sort of drawings or stuff as right now it looks boring.
+
+I would also like to know where all my time has gone! Time flies really fast when I am locking in. I haven't realized that I have been doing this for like 6 or 7 hours now. :)
+
+Okay, bye for now!  
 
