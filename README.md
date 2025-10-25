@@ -35,3 +35,6 @@ I am in no way responsible for lost data.
 ## PCB
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--b3568123d8d2fe4796c8660627162725efd8a7fd/image.png)
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyNSwicHVyIjoiYmxvYl9pZCJ9fQ==--b5a17e3fd2a702f5c3d82c874242f1e0c24293ba/image.png)
+
+## Picture of the JLCPCB cart
+![image](images/image1.png)
