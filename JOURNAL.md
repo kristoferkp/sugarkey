@@ -83,3 +83,21 @@ I want to create a case for the PCB to protect my precious security key.
 After that, I just have to create the README and ship the project.
 I will also have to order the PCB (duh) and have to find and buy the AMS1117 or NCP1117, so I can hand solder it to the other side of the board.  
 
+## 10/25/2025 5 PM - Made a case  
+
+Created a snap-fit case for the PCB. 
+
+The snap-fit may ***snap***, maybe not, we will have to wait and see.
+I haven't designed anything snap fit yet, this is my first time. If it actually snaps together, it would be because of beginners luck.
+
+I wanted to make the case a bit minimalistic, but still have something on there.
+
+So I added the sugar pixel art from Minecraft to the case. The recess is 0.2mm to 0.4mm deep, so about 1–2 layers on the 3D printer.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQ1MywicHVyIjoiYmxvYl9pZCJ9fQ==--45d3349fb7673e600678b53500230af6c5ffe6eb/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQ1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--1b642fc3a8fe42ccefa1fc334304d8a2a642b4dc/image.png)
+
+I tried to add a compliant mechanism button. I do not know what I am doing, but it seems to maybe function.
+I will have to test it out when I get my PCB.  
+
