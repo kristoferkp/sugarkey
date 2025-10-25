@@ -60,3 +60,26 @@ I would also like to know where all my time has gone! Time flies really fast whe
 
 Okay, bye for now!  
 
+## 10/25/2025 3 PM - Redesigning the PCB  
+
+I didn't really like the PCB design, so I redid everything.
+
+The second time around was a lot better in my opinion. It came out neater.
+
+I also made the PCB look prettier, I added a ground plane to the bottom and top layers, added silkscreen graphics (the dog on the back is my family's basenji, drawn by me) and moved components around.
+
+I have made the reset button also a button, not a jumper or pins, but I think I will not place it and leave the option there in case I need to add it.
+
+Furthermore, I made extra sure that the USB-C data lines are impedance matched. I need to find where the resistance can be measured in KiCad for the 90 ohm +- 10% spec of the USB-C standard. 
+Also, I made sure the data lines have a ground plane under them.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--b3568123d8d2fe4796c8660627162725efd8a7fd/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyNSwicHVyIjoiYmxvYl9pZCJ9fQ==--b5a17e3fd2a702f5c3d82c874242f1e0c24293ba/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--f77a58dc148be0d8ecfe3cb79df92927b9483a2b/image.png)
+
+I want to create a case for the PCB to protect my precious security key.
+After that, I just have to create the README and ship the project.
+I will also have to order the PCB (duh) and have to find and buy the AMS1117 or NCP1117, so I can hand solder it to the other side of the board.  
+
