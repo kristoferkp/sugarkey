@@ -101,3 +101,27 @@ So I added the sugar pixel art from Minecraft to the case. The recess is 0.2mm t
 I tried to add a compliant mechanism button. I do not know what I am doing, but it seems to maybe function.
 I will have to test it out when I get my PCB.  
 
+## 10/26/2025 - Feedback  
+
+Thank you for the feedback! But I don't think that the GPIO needs to be accessible, and here is why.
+The RP2354 was chosen specifically for its hardware security capabilities, not for general-purpose performance or GPIO expansion.
+
+Unlike the RP2040, the RP2350 provides:
+* Arm TrustZone and secure/non-secure memory isolation.
+* Cryptographic acceleration (AES, SHA, TRNG, and optional PUF-based key derivation).
+* Flash execute-in-place protection and secure boot support, which prevent firmware modification and key extraction attacks.
+
+These features directly support the project’s goal of building a secure, self-contained, hardware-based authentication token.
+
+I feel there is little need for the GPIO, as the device isn't designed to be a general purpose dev board.
+It is designed to be a security key, having the pin headers there would just make the board needlessly bulkier.
+
+The RP2350 doesn't cost that much more than other SoCs. It is still cheaper than the bulk of STM32 or ESP32 chips. It is more expensive than the RP2040, but the RP2040 isn't as secure as the RP2350.
+
+On why I chose the RP2354A over the RP2350A is that the RP2354A has built in NOR Flash. That means that I do not have to place it on the board, saving valuable real estate on the board and saving money having to pay another extended part fee on the PCBA.
+
+I feel that the RP2354 is warranted, but I am open to hearing your opinion why my security key doesn't warrant a RP2350.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTU1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--4c15b4d04f7a0d18e269723259db7bc531cecb43/image.png)
+  
+
